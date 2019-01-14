@@ -13,7 +13,6 @@
   "license": "MIT",
   "author": "Surkus Engineering <engineering@surkus.com> (https://surkus.com)",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -58,5 +57,6 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "main": "index.js"
 }
