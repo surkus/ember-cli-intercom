@@ -1,13 +1,17 @@
 {
-  "name": "surkus/ember-cli-intercom",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "name": "@surkus/ember-cli-intercom",
+  "version": "1.0.0",
+  "description": "Intercom addon for Ember CLI.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "intercom"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/surkus/ember-cli-intercom"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "Surkus Engineering <engineering@surkus.com> (https://surkus.com)",
   "directories": {
     "doc": "doc",
     "test": "tests"
