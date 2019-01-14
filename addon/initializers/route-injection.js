@@ -1,6 +1,6 @@
+import Router from '@ember/routing/router';
 import { on } from '@ember/object/evented';
 import { inject as service } from '@ember/service';
-import Router from '@ember/routing/router';
 
 export function initialize() {
   Router.reopen({
@@ -13,6 +13,6 @@ export function initialize() {
 }
 
 export default {
-  name: 'router',
+  name: 'route-injection',
   initialize: initialize
 };
